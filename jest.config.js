@@ -5,6 +5,7 @@ module.exports = {
     '!app/javascript/src/**/components/**/index.js',
     '!**/__tests__/**',
     '!**/__stories__/**',
+    '!cypress/**',
   ],
   moduleNameMapper: {
     '\\.(svg)$': '<rootDir>/empty-module.js',
