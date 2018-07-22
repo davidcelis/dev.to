@@ -4,11 +4,13 @@
   "parserOptions": {
     "ecmaVersion": 2017
   },
-  "plugins": ["cypress", "chai-friendly"],
+  "plugins": ["chai-friendly", "cypress"],
   "env": {
     "cypress/globals": true
   },
   "rules": {
-    "spaced-comment": "off"
+    "spaced-comment": "off",
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2
   }
 }
