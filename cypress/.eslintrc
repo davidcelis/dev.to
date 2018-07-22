@@ -4,7 +4,7 @@
   "parserOptions": {
     "ecmaVersion": 2017
   },
-  "plugins": ["cypress"],
+  "plugins": ["cypress", "chai-friendly"],
   "env": {
     "cypress/globals": true
   },
