@@ -13,6 +13,8 @@
     "test:watch": "jest app/javascript/ --coverage --watch",
     "storybook": "start-storybook -p 6006 -c app/javascript/.storybook -s app/javascript/.storybook/assets",
     "build-storybook": "build-storybook -c app/javascript/.storybook -s app/javascript/.storybook/assets",
+    "e2e": "cypress open",
+    "e2e:ci": "cypress run --record",
     "precommit": "lint-staged"
   },
   "lint-staged": {
