@@ -20,3 +20,7 @@ To get Storybook running on your local:
 * 📦 Run `npm install` or `yarn` to ensure all your dependencies are installed.
 * 🏁 Run `npm run storybook` or `yarn storybook` to start Storybook.
 * 🏗️ Start working on your component and see the changes in Storybook as you save.
+
+### End to End (E2E) Testing
+
+We use [Cypress](https://cypress.io) for end to end testing (e2e). To run cypress locally, run `npm run e2e`. All e2e files are located in the `cypress` folder. New to Cypress? Check out their [great docs](https://docs.cypress.io).
